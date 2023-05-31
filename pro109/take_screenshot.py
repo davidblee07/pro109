@@ -57,9 +57,9 @@ while True:
 
 
 
-            mp_draw.draw_landmarks(img, hand_landmark,
-            mp_hands.HAND_CONNECTIONS, mp_draw.DrawingSpec((0,0,255),2,2),
-            mp_draw.DrawingSpec((0,255,0),4,2))
+         mp_draw.draw_landmarks(img, hand_landmark,
+         mp_hands.HAND_CONNECTIONS, mp_draw.DrawingSpec((0,0,255),2,2),
+         mp_draw.DrawingSpec((0,255,0),4,2))
     
 
     cv2.imshow("Rastreamento de Maos", img)
